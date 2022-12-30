@@ -24,4 +24,4 @@ for event in bot.longpoll.listen():
                 break
 
         else:
-            bot.write_msg(event.user_id, 'Простите но я вас не понел.')
+            bot.write_msg(event.user_id, 'Простите но я вас не понял.')
